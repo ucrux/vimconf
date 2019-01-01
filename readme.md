@@ -17,6 +17,10 @@ git submodule add https://github.com/vim-airline/vim-airline.git pack/plugins/st
 git submodule add https://github.com/jszakmeister/vim-togglecursor.git pack/plugins/start/vim-togglecursor
 # vim-fugitive
 git submodule add https://github.com/tpope/vim-fugitive.git pack/plugins/start/vim-fugitive
+# ycm optional
+sudo apt-get install cmake python3-dev gcc g++
+git submodule add https://github.com/Valloric/YouCompleteMe pack/plugins/start/YouCompleteMe && git submodule update --init --recursive
+cd pack/plugins/start/YouCompleteMe && python3 ./install.py
 ```
 
 # update all plugins
