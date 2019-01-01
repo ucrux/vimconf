@@ -1,0 +1,3 @@
+[submodule "pack/start/gruvbox"]
+	path = pack/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
